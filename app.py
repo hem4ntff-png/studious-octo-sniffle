@@ -221,7 +221,7 @@ def handle_requests():
             remaining = max(daily_limit - used_count, 0)
 
             result = OrderedDict([
-                ("LikesGivenByAPI", like_given),
+                ("LikesGiven", like_given),
                 ("LikesafterCommand", after_like),
                 ("LikesbeforeCommand", before_like),
                 ("PlayerNickname", after.AccountInfo.PlayerNickname),
